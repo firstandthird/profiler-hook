@@ -1,0 +1,22 @@
+{
+  "name": "profiler-hook",
+  "description": "Library to toggle v8 profiler from SIGUSR2 signal",
+  "homepage": "https://github.com/firstandthird/profiler-hook",
+  "author": "First+Third",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firstandthird/profiler-hook.git"
+  },
+  "dependencies": {
+    "v8-profiler": "^5.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-firstandthird": "^3.3.0",
+    "eslint-plugin-import": "^2.3.0"
+  },
+  "eslintConfig": {
+    "extends": "firstandthird"
+  }
+}
